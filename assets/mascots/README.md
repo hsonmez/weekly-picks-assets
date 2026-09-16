@@ -1,6 +1,6 @@
 # Player Mascots
 
-Original player mascot images used by the FF40 Weekly Picks application.
+Original player mascot images used by the Weekly Picks application.
 
 - Format: PNG
 - Dimensions: 1,254 × 1,254 pixels
