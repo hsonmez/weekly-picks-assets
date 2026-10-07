@@ -1,0 +1,4124 @@
+{
+  "schemaVersion": 1,
+  "season": 2026,
+  "source": "nflverse",
+  "generatedAt": "2026-10-07T14:20:46Z",
+  "weeks": {
+    "1": [
+      {
+        "gameId": "2026_01_NE_SEA",
+        "away": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "home": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "gameday": "2026-09-09",
+        "gametime": "20:20",
+        "weekday": "Wednesday",
+        "kickoffTimestamp": 1788999600000
+      },
+      {
+        "gameId": "2026_01_SF_LA",
+        "away": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "home": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "gameday": "2026-09-10",
+        "gametime": "20:35",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1789086900000
+      },
+      {
+        "gameId": "2026_01_ATL_PIT",
+        "away": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "home": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789318800000
+      },
+      {
+        "gameId": "2026_01_BAL_IND",
+        "away": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "home": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789318800000
+      },
+      {
+        "gameId": "2026_01_BUF_HOU",
+        "away": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "home": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789318800000
+      },
+      {
+        "gameId": "2026_01_CHI_CAR",
+        "away": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "home": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789318800000
+      },
+      {
+        "gameId": "2026_01_CLE_JAX",
+        "away": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "home": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789318800000
+      },
+      {
+        "gameId": "2026_01_NO_DET",
+        "away": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "home": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789318800000
+      },
+      {
+        "gameId": "2026_01_NYJ_TEN",
+        "away": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "home": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789318800000
+      },
+      {
+        "gameId": "2026_01_TB_CIN",
+        "away": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "home": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789318800000
+      },
+      {
+        "gameId": "2026_01_ARI_LAC",
+        "away": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "home": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789331100000
+      },
+      {
+        "gameId": "2026_01_GB_MIN",
+        "away": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "home": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789331100000
+      },
+      {
+        "gameId": "2026_01_MIA_LV",
+        "away": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "home": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789331100000
+      },
+      {
+        "gameId": "2026_01_WAS_PHI",
+        "away": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "home": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789331100000
+      },
+      {
+        "gameId": "2026_01_DAL_NYG",
+        "away": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "home": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "gameday": "2026-09-13",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789345200000
+      },
+      {
+        "gameId": "2026_01_DEN_KC",
+        "away": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "home": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "gameday": "2026-09-14",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1789431300000
+      }
+    ],
+    "2": [
+      {
+        "gameId": "2026_02_DET_BUF",
+        "away": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "home": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "gameday": "2026-09-17",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1789690500000
+      },
+      {
+        "gameId": "2026_02_CAR_ATL",
+        "away": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "home": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789923600000
+      },
+      {
+        "gameId": "2026_02_CIN_HOU",
+        "away": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "home": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789923600000
+      },
+      {
+        "gameId": "2026_02_CLE_TB",
+        "away": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "home": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789923600000
+      },
+      {
+        "gameId": "2026_02_GB_NYJ",
+        "away": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "home": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789923600000
+      },
+      {
+        "gameId": "2026_02_MIN_CHI",
+        "away": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "home": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789923600000
+      },
+      {
+        "gameId": "2026_02_NO_BAL",
+        "away": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "home": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789923600000
+      },
+      {
+        "gameId": "2026_02_PHI_TEN",
+        "away": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "home": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789923600000
+      },
+      {
+        "gameId": "2026_02_PIT_NE",
+        "away": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "home": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789923600000
+      },
+      {
+        "gameId": "2026_02_JAX_DEN",
+        "away": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "home": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789934700000
+      },
+      {
+        "gameId": "2026_02_LV_LAC",
+        "away": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "home": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789934700000
+      },
+      {
+        "gameId": "2026_02_MIA_SF",
+        "away": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "home": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789935900000
+      },
+      {
+        "gameId": "2026_02_SEA_ARI",
+        "away": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "home": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789935900000
+      },
+      {
+        "gameId": "2026_02_WAS_DAL",
+        "away": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "home": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789935900000
+      },
+      {
+        "gameId": "2026_02_IND_KC",
+        "away": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "home": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "gameday": "2026-09-20",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1789950000000
+      },
+      {
+        "gameId": "2026_02_NYG_LA",
+        "away": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "home": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "gameday": "2026-09-21",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1790036100000
+      }
+    ],
+    "3": [
+      {
+        "gameId": "2026_03_ATL_GB",
+        "away": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "home": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "gameday": "2026-09-24",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1790295300000
+      },
+      {
+        "gameId": "2026_03_CAR_CLE",
+        "away": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "home": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790528400000
+      },
+      {
+        "gameId": "2026_03_CIN_PIT",
+        "away": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "home": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790528400000
+      },
+      {
+        "gameId": "2026_03_HOU_IND",
+        "away": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "home": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790528400000
+      },
+      {
+        "gameId": "2026_03_KC_MIA",
+        "away": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "home": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790528400000
+      },
+      {
+        "gameId": "2026_03_LAC_BUF",
+        "away": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "home": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790528400000
+      },
+      {
+        "gameId": "2026_03_NE_JAX",
+        "away": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "home": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790528400000
+      },
+      {
+        "gameId": "2026_03_NYJ_DET",
+        "away": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "home": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790528400000
+      },
+      {
+        "gameId": "2026_03_SEA_WAS",
+        "away": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "home": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790528400000
+      },
+      {
+        "gameId": "2026_03_TEN_NYG",
+        "away": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "home": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790528400000
+      },
+      {
+        "gameId": "2026_03_ARI_SF",
+        "away": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "home": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790539500000
+      },
+      {
+        "gameId": "2026_03_MIN_TB",
+        "away": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "home": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790539500000
+      },
+      {
+        "gameId": "2026_03_BAL_DAL",
+        "away": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "home": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790540700000
+      },
+      {
+        "gameId": "2026_03_LV_NO",
+        "away": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "home": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790540700000
+      },
+      {
+        "gameId": "2026_03_LA_DEN",
+        "away": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "home": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "gameday": "2026-09-27",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1790554800000
+      },
+      {
+        "gameId": "2026_03_PHI_CHI",
+        "away": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "home": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "gameday": "2026-09-28",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1790640900000
+      }
+    ],
+    "4": [
+      {
+        "gameId": "2026_04_PIT_CLE",
+        "away": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "home": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "gameday": "2026-10-01",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1790900100000
+      },
+      {
+        "gameId": "2026_04_IND_WAS",
+        "away": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "home": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "09:30",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791120600000
+      },
+      {
+        "gameId": "2026_04_ARI_NYG",
+        "away": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "home": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791133200000
+      },
+      {
+        "gameId": "2026_04_DAL_HOU",
+        "away": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "home": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791133200000
+      },
+      {
+        "gameId": "2026_04_GB_TB",
+        "away": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "home": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791133200000
+      },
+      {
+        "gameId": "2026_04_JAX_CIN",
+        "away": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "home": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791133200000
+      },
+      {
+        "gameId": "2026_04_LA_PHI",
+        "away": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "home": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791133200000
+      },
+      {
+        "gameId": "2026_04_NE_BUF",
+        "away": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "home": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791133200000
+      },
+      {
+        "gameId": "2026_04_NYJ_CHI",
+        "away": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "home": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791133200000
+      },
+      {
+        "gameId": "2026_04_TEN_BAL",
+        "away": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "home": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791133200000
+      },
+      {
+        "gameId": "2026_04_MIA_MIN",
+        "away": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "home": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791144300000
+      },
+      {
+        "gameId": "2026_04_DEN_SF",
+        "away": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "home": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791145500000
+      },
+      {
+        "gameId": "2026_04_KC_LV",
+        "away": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "home": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791145500000
+      },
+      {
+        "gameId": "2026_04_LAC_SEA",
+        "away": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "home": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791145500000
+      },
+      {
+        "gameId": "2026_04_DET_CAR",
+        "away": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "home": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "gameday": "2026-10-04",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791159600000
+      },
+      {
+        "gameId": "2026_04_ATL_NO",
+        "away": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "home": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "gameday": "2026-10-05",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1791245700000
+      }
+    ],
+    "5": [
+      {
+        "gameId": "2026_05_TB_DAL",
+        "away": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "home": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "gameday": "2026-10-08",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1791504900000
+      },
+      {
+        "gameId": "2026_05_PHI_JAX",
+        "away": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "home": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "09:30",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791725400000
+      },
+      {
+        "gameId": "2026_05_CHI_GB",
+        "away": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "home": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791738000000
+      },
+      {
+        "gameId": "2026_05_CIN_MIA",
+        "away": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "home": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791738000000
+      },
+      {
+        "gameId": "2026_05_CLE_NYJ",
+        "away": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "home": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791738000000
+      },
+      {
+        "gameId": "2026_05_HOU_TEN",
+        "away": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "home": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791738000000
+      },
+      {
+        "gameId": "2026_05_IND_PIT",
+        "away": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "home": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791738000000
+      },
+      {
+        "gameId": "2026_05_LV_NE",
+        "away": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "home": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791738000000
+      },
+      {
+        "gameId": "2026_05_MIN_NO",
+        "away": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "home": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791738000000
+      },
+      {
+        "gameId": "2026_05_NYG_WAS",
+        "away": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "home": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791738000000
+      },
+      {
+        "gameId": "2026_05_DEN_LAC",
+        "away": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "home": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791749100000
+      },
+      {
+        "gameId": "2026_05_DET_ARI",
+        "away": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "home": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791750300000
+      },
+      {
+        "gameId": "2026_05_SF_SEA",
+        "away": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "home": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791750300000
+      },
+      {
+        "gameId": "2026_05_BAL_ATL",
+        "away": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "home": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "gameday": "2026-10-11",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1791764400000
+      },
+      {
+        "gameId": "2026_05_BUF_LA",
+        "away": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "home": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "gameday": "2026-10-12",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1791850500000
+      }
+    ],
+    "6": [
+      {
+        "gameId": "2026_06_SEA_DEN",
+        "away": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "home": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "gameday": "2026-10-15",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1792109700000
+      },
+      {
+        "gameId": "2026_06_HOU_JAX",
+        "away": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "home": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "09:30",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792330200000
+      },
+      {
+        "gameId": "2026_06_BAL_CLE",
+        "away": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "home": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792342800000
+      },
+      {
+        "gameId": "2026_06_CAR_PHI",
+        "away": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "home": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792342800000
+      },
+      {
+        "gameId": "2026_06_CHI_ATL",
+        "away": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "home": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792342800000
+      },
+      {
+        "gameId": "2026_06_NO_NYG",
+        "away": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "home": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792342800000
+      },
+      {
+        "gameId": "2026_06_NYJ_NE",
+        "away": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "home": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792342800000
+      },
+      {
+        "gameId": "2026_06_PIT_TB",
+        "away": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "home": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792342800000
+      },
+      {
+        "gameId": "2026_06_TEN_IND",
+        "away": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "home": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792342800000
+      },
+      {
+        "gameId": "2026_06_ARI_LA",
+        "away": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "home": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792353900000
+      },
+      {
+        "gameId": "2026_06_BUF_LV",
+        "away": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "home": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792355100000
+      },
+      {
+        "gameId": "2026_06_LAC_KC",
+        "away": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "home": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792355100000
+      },
+      {
+        "gameId": "2026_06_DAL_GB",
+        "away": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "home": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "gameday": "2026-10-18",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792369200000
+      },
+      {
+        "gameId": "2026_06_WAS_SF",
+        "away": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "home": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "gameday": "2026-10-19",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1792455300000
+      }
+    ],
+    "7": [
+      {
+        "gameId": "2026_07_NE_CHI",
+        "away": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "home": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "gameday": "2026-10-22",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1792714500000
+      },
+      {
+        "gameId": "2026_07_PIT_NO",
+        "away": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "home": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "09:30",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792935000000
+      },
+      {
+        "gameId": "2026_07_CIN_BAL",
+        "away": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "home": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792947600000
+      },
+      {
+        "gameId": "2026_07_CLE_TEN",
+        "away": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "home": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792947600000
+      },
+      {
+        "gameId": "2026_07_IND_MIN",
+        "away": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "home": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792947600000
+      },
+      {
+        "gameId": "2026_07_MIA_NYJ",
+        "away": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "home": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792947600000
+      },
+      {
+        "gameId": "2026_07_NYG_HOU",
+        "away": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "home": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792947600000
+      },
+      {
+        "gameId": "2026_07_SF_ATL",
+        "away": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "home": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792947600000
+      },
+      {
+        "gameId": "2026_07_TB_CAR",
+        "away": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "home": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792947600000
+      },
+      {
+        "gameId": "2026_07_DEN_ARI",
+        "away": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "home": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792958700000
+      },
+      {
+        "gameId": "2026_07_GB_DET",
+        "away": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "home": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792959900000
+      },
+      {
+        "gameId": "2026_07_LA_LV",
+        "away": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "home": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792959900000
+      },
+      {
+        "gameId": "2026_07_KC_SEA",
+        "away": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "home": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "gameday": "2026-10-25",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1792974000000
+      },
+      {
+        "gameId": "2026_07_DAL_PHI",
+        "away": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "home": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "gameday": "2026-10-26",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1793060100000
+      }
+    ],
+    "8": [
+      {
+        "gameId": "2026_08_CAR_GB",
+        "away": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "home": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "gameday": "2026-10-29",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1793319300000
+      },
+      {
+        "gameId": "2026_08_ARI_DAL",
+        "away": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "home": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793556000000
+      },
+      {
+        "gameId": "2026_08_ATL_TB",
+        "away": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "home": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793556000000
+      },
+      {
+        "gameId": "2026_08_BAL_BUF",
+        "away": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "home": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793556000000
+      },
+      {
+        "gameId": "2026_08_CLE_PIT",
+        "away": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "home": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793556000000
+      },
+      {
+        "gameId": "2026_08_IND_JAX",
+        "away": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "home": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793556000000
+      },
+      {
+        "gameId": "2026_08_LV_NYJ",
+        "away": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "home": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793556000000
+      },
+      {
+        "gameId": "2026_08_MIN_DET",
+        "away": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "home": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793556000000
+      },
+      {
+        "gameId": "2026_08_TEN_CIN",
+        "away": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "home": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793556000000
+      },
+      {
+        "gameId": "2026_08_LAC_LA",
+        "away": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "home": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793567100000
+      },
+      {
+        "gameId": "2026_08_KC_DEN",
+        "away": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "home": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793568300000
+      },
+      {
+        "gameId": "2026_08_NE_MIA",
+        "away": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "home": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793568300000
+      },
+      {
+        "gameId": "2026_08_PHI_WAS",
+        "away": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "home": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "gameday": "2026-11-01",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1793582400000
+      },
+      {
+        "gameId": "2026_08_CHI_SEA",
+        "away": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "home": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "gameday": "2026-11-02",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1793668500000
+      }
+    ],
+    "9": [
+      {
+        "gameId": "2026_09_JAX_BAL",
+        "away": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "home": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "gameday": "2026-11-05",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1793927700000
+      },
+      {
+        "gameId": "2026_09_CIN_ATL",
+        "away": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "home": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "09:30",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794148200000
+      },
+      {
+        "gameId": "2026_09_CLE_NO",
+        "away": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "home": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794160800000
+      },
+      {
+        "gameId": "2026_09_DAL_IND",
+        "away": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "home": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794160800000
+      },
+      {
+        "gameId": "2026_09_DEN_CAR",
+        "away": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "home": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794160800000
+      },
+      {
+        "gameId": "2026_09_DET_MIA",
+        "away": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "home": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794160800000
+      },
+      {
+        "gameId": "2026_09_LA_WAS",
+        "away": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "home": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794160800000
+      },
+      {
+        "gameId": "2026_09_NYG_PHI",
+        "away": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "home": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794160800000
+      },
+      {
+        "gameId": "2026_09_NYJ_KC",
+        "away": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "home": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794160800000
+      },
+      {
+        "gameId": "2026_09_HOU_LAC",
+        "away": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "home": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794171900000
+      },
+      {
+        "gameId": "2026_09_LV_SF",
+        "away": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "home": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794171900000
+      },
+      {
+        "gameId": "2026_09_ARI_SEA",
+        "away": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "home": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794173100000
+      },
+      {
+        "gameId": "2026_09_GB_NE",
+        "away": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "home": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794173100000
+      },
+      {
+        "gameId": "2026_09_TB_CHI",
+        "away": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "home": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794187200000
+      },
+      {
+        "gameId": "2026_09_BUF_MIN",
+        "away": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "home": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "gameday": "2026-11-09",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1794273300000
+      }
+    ],
+    "10": [
+      {
+        "gameId": "2026_10_WAS_NYG",
+        "away": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "home": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "gameday": "2026-11-12",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1794532500000
+      },
+      {
+        "gameId": "2026_10_NE_DET",
+        "away": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "home": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "09:30",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794753000000
+      },
+      {
+        "gameId": "2026_10_BUF_NYJ",
+        "away": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "home": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794765600000
+      },
+      {
+        "gameId": "2026_10_CAR_NO",
+        "away": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "home": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794765600000
+      },
+      {
+        "gameId": "2026_10_HOU_CLE",
+        "away": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "home": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794765600000
+      },
+      {
+        "gameId": "2026_10_JAX_TEN",
+        "away": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "home": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794765600000
+      },
+      {
+        "gameId": "2026_10_KC_ATL",
+        "away": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "home": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794765600000
+      },
+      {
+        "gameId": "2026_10_MIA_IND",
+        "away": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "home": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794765600000
+      },
+      {
+        "gameId": "2026_10_MIN_GB",
+        "away": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "home": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794765600000
+      },
+      {
+        "gameId": "2026_10_LA_ARI",
+        "away": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "home": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794776700000
+      },
+      {
+        "gameId": "2026_10_SEA_LV",
+        "away": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "home": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794776700000
+      },
+      {
+        "gameId": "2026_10_SF_DAL",
+        "away": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "home": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794777900000
+      },
+      {
+        "gameId": "2026_10_PIT_CIN",
+        "away": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "home": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "gameday": "2026-11-15",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794792000000
+      },
+      {
+        "gameId": "2026_10_LAC_BAL",
+        "away": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "home": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "gameday": "2026-11-16",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1794878100000
+      }
+    ],
+    "11": [
+      {
+        "gameId": "2026_11_IND_HOU",
+        "away": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "home": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "gameday": "2026-11-19",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1795137300000
+      },
+      {
+        "gameId": "2026_11_ARI_KC",
+        "away": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "home": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795370400000
+      },
+      {
+        "gameId": "2026_11_BAL_CAR",
+        "away": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "home": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795370400000
+      },
+      {
+        "gameId": "2026_11_JAX_NYG",
+        "away": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "home": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795370400000
+      },
+      {
+        "gameId": "2026_11_MIA_BUF",
+        "away": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "home": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795370400000
+      },
+      {
+        "gameId": "2026_11_NO_CHI",
+        "away": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "home": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795370400000
+      },
+      {
+        "gameId": "2026_11_TB_DET",
+        "away": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "home": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795370400000
+      },
+      {
+        "gameId": "2026_11_TEN_DAL",
+        "away": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "home": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795370400000
+      },
+      {
+        "gameId": "2026_11_NYJ_LAC",
+        "away": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "home": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795381500000
+      },
+      {
+        "gameId": "2026_11_LV_DEN",
+        "away": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "home": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795382700000
+      },
+      {
+        "gameId": "2026_11_PIT_PHI",
+        "away": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "home": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795382700000
+      },
+      {
+        "gameId": "2026_11_MIN_SF",
+        "away": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "home": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795396800000
+      },
+      {
+        "gameId": "2026_11_CIN_WAS",
+        "away": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "home": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "gameday": "2026-11-23",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1795482900000
+      }
+    ],
+    "12": [
+      {
+        "gameId": "2026_12_GB_LA",
+        "away": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "home": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "gameday": "2026-11-25",
+        "gametime": "20:00",
+        "weekday": "Wednesday",
+        "kickoffTimestamp": 1795654800000
+      },
+      {
+        "gameId": "2026_12_CHI_DET",
+        "away": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "home": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "gameday": "2026-11-26",
+        "gametime": "13:00",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1795716000000
+      },
+      {
+        "gameId": "2026_12_PHI_DAL",
+        "away": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "home": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "gameday": "2026-11-26",
+        "gametime": "16:30",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1795728600000
+      },
+      {
+        "gameId": "2026_12_KC_BUF",
+        "away": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "home": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "gameday": "2026-11-26",
+        "gametime": "20:20",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1795742400000
+      },
+      {
+        "gameId": "2026_12_DEN_PIT",
+        "away": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "home": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "gameday": "2026-11-27",
+        "gametime": "15:00",
+        "weekday": "Friday",
+        "kickoffTimestamp": 1795809600000
+      },
+      {
+        "gameId": "2026_12_ATL_MIN",
+        "away": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "home": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "gameday": "2026-11-29",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795975200000
+      },
+      {
+        "gameId": "2026_12_BAL_HOU",
+        "away": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "home": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "gameday": "2026-11-29",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795975200000
+      },
+      {
+        "gameId": "2026_12_LV_CLE",
+        "away": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "home": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "gameday": "2026-11-29",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795975200000
+      },
+      {
+        "gameId": "2026_12_NO_CIN",
+        "away": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "home": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "gameday": "2026-11-29",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795975200000
+      },
+      {
+        "gameId": "2026_12_NYG_IND",
+        "away": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "home": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "gameday": "2026-11-29",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795975200000
+      },
+      {
+        "gameId": "2026_12_NYJ_MIA",
+        "away": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "home": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "gameday": "2026-11-29",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795975200000
+      },
+      {
+        "gameId": "2026_12_TEN_JAX",
+        "away": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "home": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "gameday": "2026-11-29",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795986300000
+      },
+      {
+        "gameId": "2026_12_SEA_SF",
+        "away": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "home": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "gameday": "2026-11-29",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795987500000
+      },
+      {
+        "gameId": "2026_12_WAS_ARI",
+        "away": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "home": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "gameday": "2026-11-29",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795987500000
+      },
+      {
+        "gameId": "2026_12_NE_LAC",
+        "away": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "home": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "gameday": "2026-11-29",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796001600000
+      },
+      {
+        "gameId": "2026_12_CAR_TB",
+        "away": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "home": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "gameday": "2026-11-30",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1796087700000
+      }
+    ],
+    "13": [
+      {
+        "gameId": "2026_13_KC_LA",
+        "away": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "home": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "gameday": "2026-12-03",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1796346900000
+      },
+      {
+        "gameId": "2026_13_CIN_CLE",
+        "away": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "home": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796580000000
+      },
+      {
+        "gameId": "2026_13_DET_ATL",
+        "away": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "home": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796580000000
+      },
+      {
+        "gameId": "2026_13_GB_NO",
+        "away": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "home": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796580000000
+      },
+      {
+        "gameId": "2026_13_JAX_CHI",
+        "away": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "home": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796580000000
+      },
+      {
+        "gameId": "2026_13_LAC_TB",
+        "away": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "home": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796580000000
+      },
+      {
+        "gameId": "2026_13_SF_NYG",
+        "away": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "home": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796580000000
+      },
+      {
+        "gameId": "2026_13_WAS_TEN",
+        "away": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "home": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796580000000
+      },
+      {
+        "gameId": "2026_13_MIA_DEN",
+        "away": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "home": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796591100000
+      },
+      {
+        "gameId": "2026_13_PHI_ARI",
+        "away": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "home": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796591100000
+      },
+      {
+        "gameId": "2026_13_BUF_NE",
+        "away": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "home": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796592300000
+      },
+      {
+        "gameId": "2026_13_CAR_MIN",
+        "away": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "home": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796592300000
+      },
+      {
+        "gameId": "2026_13_HOU_PIT",
+        "away": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "home": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "gameday": "2026-12-06",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1796606400000
+      },
+      {
+        "gameId": "2026_13_DAL_SEA",
+        "away": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "home": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "gameday": "2026-12-07",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1796692500000
+      }
+    ],
+    "14": [
+      {
+        "gameId": "2026_14_MIN_NE",
+        "away": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "home": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "gameday": "2026-12-10",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1796951700000
+      },
+      {
+        "gameId": "2026_14_ATL_CLE",
+        "away": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "home": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797184800000
+      },
+      {
+        "gameId": "2026_14_CHI_MIA",
+        "away": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "home": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797184800000
+      },
+      {
+        "gameId": "2026_14_DEN_NYJ",
+        "away": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "home": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797184800000
+      },
+      {
+        "gameId": "2026_14_HOU_WAS",
+        "away": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "home": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797184800000
+      },
+      {
+        "gameId": "2026_14_IND_PHI",
+        "away": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "home": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797184800000
+      },
+      {
+        "gameId": "2026_14_NO_CAR",
+        "away": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "home": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797184800000
+      },
+      {
+        "gameId": "2026_14_TB_BAL",
+        "away": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "home": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797184800000
+      },
+      {
+        "gameId": "2026_14_TEN_DET",
+        "away": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "home": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797184800000
+      },
+      {
+        "gameId": "2026_14_LAC_LV",
+        "away": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "home": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797195900000
+      },
+      {
+        "gameId": "2026_14_KC_CIN",
+        "away": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "home": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797197100000
+      },
+      {
+        "gameId": "2026_14_LA_SF",
+        "away": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "home": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797197100000
+      },
+      {
+        "gameId": "2026_14_NYG_SEA",
+        "away": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "home": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797197100000
+      },
+      {
+        "gameId": "2026_14_BUF_GB",
+        "away": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "home": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "gameday": "2026-12-13",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797211200000
+      },
+      {
+        "gameId": "2026_14_PIT_JAX",
+        "away": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "home": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "gameday": "2026-12-14",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1797297300000
+      }
+    ],
+    "15": [
+      {
+        "gameId": "2026_15_SF_LAC",
+        "away": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "home": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "gameday": "2026-12-17",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1797556500000
+      },
+      {
+        "gameId": "2026_15_SEA_PHI",
+        "away": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "home": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "gameday": "2026-12-19",
+        "gametime": "17:00",
+        "weekday": "Saturday",
+        "kickoffTimestamp": 1797717600000
+      },
+      {
+        "gameId": "2026_15_CHI_BUF",
+        "away": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "home": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "gameday": "2026-12-19",
+        "gametime": "20:20",
+        "weekday": "Saturday",
+        "kickoffTimestamp": 1797729600000
+      },
+      {
+        "gameId": "2026_15_ATL_WAS",
+        "away": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "home": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797789600000
+      },
+      {
+        "gameId": "2026_15_BAL_PIT",
+        "away": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "home": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797789600000
+      },
+      {
+        "gameId": "2026_15_CIN_CAR",
+        "away": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "home": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797789600000
+      },
+      {
+        "gameId": "2026_15_CLE_NYG",
+        "away": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "home": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797789600000
+      },
+      {
+        "gameId": "2026_15_IND_TEN",
+        "away": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "home": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797789600000
+      },
+      {
+        "gameId": "2026_15_JAX_HOU",
+        "away": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "home": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797789600000
+      },
+      {
+        "gameId": "2026_15_MIA_GB",
+        "away": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "home": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797789600000
+      },
+      {
+        "gameId": "2026_15_NO_TB",
+        "away": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "home": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797789600000
+      },
+      {
+        "gameId": "2026_15_NYJ_ARI",
+        "away": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "home": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797800700000
+      },
+      {
+        "gameId": "2026_15_DAL_LA",
+        "away": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "home": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797801900000
+      },
+      {
+        "gameId": "2026_15_DEN_LV",
+        "away": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "home": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797801900000
+      },
+      {
+        "gameId": "2026_15_DET_MIN",
+        "away": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "home": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "gameday": "2026-12-20",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1797816000000
+      },
+      {
+        "gameId": "2026_15_NE_KC",
+        "away": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "home": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "gameday": "2026-12-21",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1797902100000
+      }
+    ],
+    "16": [
+      {
+        "gameId": "2026_16_HOU_PHI",
+        "away": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "home": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "gameday": "2026-12-24",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1798161300000
+      },
+      {
+        "gameId": "2026_16_GB_CHI",
+        "away": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "home": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "gameday": "2026-12-25",
+        "gametime": "13:00",
+        "weekday": "Friday",
+        "kickoffTimestamp": 1798221600000
+      },
+      {
+        "gameId": "2026_16_BUF_DEN",
+        "away": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "home": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "gameday": "2026-12-25",
+        "gametime": "16:30",
+        "weekday": "Friday",
+        "kickoffTimestamp": 1798234200000
+      },
+      {
+        "gameId": "2026_16_LA_SEA",
+        "away": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "home": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "gameday": "2026-12-25",
+        "gametime": "20:15",
+        "weekday": "Friday",
+        "kickoffTimestamp": 1798247700000
+      },
+      {
+        "gameId": "2026_16_ARI_NO",
+        "away": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "home": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "gameday": "2026-12-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798394400000
+      },
+      {
+        "gameId": "2026_16_CAR_PIT",
+        "away": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "home": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "gameday": "2026-12-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798394400000
+      },
+      {
+        "gameId": "2026_16_CIN_IND",
+        "away": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "home": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "gameday": "2026-12-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798394400000
+      },
+      {
+        "gameId": "2026_16_CLE_BAL",
+        "away": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "home": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "gameday": "2026-12-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798394400000
+      },
+      {
+        "gameId": "2026_16_LAC_MIA",
+        "away": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "home": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "gameday": "2026-12-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798394400000
+      },
+      {
+        "gameId": "2026_16_NE_NYJ",
+        "away": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "home": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "gameday": "2026-12-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798394400000
+      },
+      {
+        "gameId": "2026_16_TB_ATL",
+        "away": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "home": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "gameday": "2026-12-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798394400000
+      },
+      {
+        "gameId": "2026_16_WAS_MIN",
+        "away": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "home": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "gameday": "2026-12-27",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798394400000
+      },
+      {
+        "gameId": "2026_16_TEN_LV",
+        "away": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "home": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "gameday": "2026-12-27",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798405500000
+      },
+      {
+        "gameId": "2026_16_SF_KC",
+        "away": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "home": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "gameday": "2026-12-27",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798406700000
+      },
+      {
+        "gameId": "2026_16_JAX_DAL",
+        "away": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "home": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "gameday": "2026-12-27",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798420800000
+      },
+      {
+        "gameId": "2026_16_NYG_DET",
+        "away": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "home": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "gameday": "2026-12-28",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1798506900000
+      }
+    ],
+    "17": [
+      {
+        "gameId": "2026_17_BAL_CIN",
+        "away": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "home": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "gameday": "2026-12-31",
+        "gametime": "20:15",
+        "weekday": "Thursday",
+        "kickoffTimestamp": 1798766100000
+      },
+      {
+        "gameId": "2026_17_BUF_MIA",
+        "away": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "home": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798999200000
+      },
+      {
+        "gameId": "2026_17_DEN_NE",
+        "away": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "home": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798999200000
+      },
+      {
+        "gameId": "2026_17_IND_CLE",
+        "away": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "home": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798999200000
+      },
+      {
+        "gameId": "2026_17_KC_LAC",
+        "away": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "home": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798999200000
+      },
+      {
+        "gameId": "2026_17_LA_TB",
+        "away": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "home": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798999200000
+      },
+      {
+        "gameId": "2026_17_MIN_NYJ",
+        "away": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "home": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798999200000
+      },
+      {
+        "gameId": "2026_17_NO_ATL",
+        "away": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "home": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798999200000
+      },
+      {
+        "gameId": "2026_17_NYG_DAL",
+        "away": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "home": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798999200000
+      },
+      {
+        "gameId": "2026_17_PIT_TEN",
+        "away": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "home": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798999200000
+      },
+      {
+        "gameId": "2026_17_SEA_CAR",
+        "away": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "home": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798999200000
+      },
+      {
+        "gameId": "2026_17_WAS_JAX",
+        "away": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "home": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1798999200000
+      },
+      {
+        "gameId": "2026_17_LV_ARI",
+        "away": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "home": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "16:05",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799010300000
+      },
+      {
+        "gameId": "2026_17_DET_CHI",
+        "away": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "home": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799011500000
+      },
+      {
+        "gameId": "2026_17_PHI_SF",
+        "away": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "home": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "gameday": "2027-01-03",
+        "gametime": "20:20",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799025600000
+      },
+      {
+        "gameId": "2026_17_HOU_GB",
+        "away": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "home": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "gameday": "2027-01-04",
+        "gametime": "20:15",
+        "weekday": "Monday",
+        "kickoffTimestamp": 1799111700000
+      }
+    ],
+    "18": [
+      {
+        "gameId": "2026_18_ATL_CAR",
+        "away": {
+          "abbreviation": "ATL",
+          "name": "Atlanta Falcons"
+        },
+        "home": {
+          "abbreviation": "CAR",
+          "name": "Carolina Panthers"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_CHI_MIN",
+        "away": {
+          "abbreviation": "CHI",
+          "name": "Chicago Bears"
+        },
+        "home": {
+          "abbreviation": "MIN",
+          "name": "Minnesota Vikings"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_CLE_CIN",
+        "away": {
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
+        },
+        "home": {
+          "abbreviation": "CIN",
+          "name": "Cincinnati Bengals"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_DAL_WAS",
+        "away": {
+          "abbreviation": "DAL",
+          "name": "Dallas Cowboys"
+        },
+        "home": {
+          "abbreviation": "WAS",
+          "name": "Washington Commanders"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_DET_GB",
+        "away": {
+          "abbreviation": "DET",
+          "name": "Detroit Lions"
+        },
+        "home": {
+          "abbreviation": "GB",
+          "name": "Green Bay Packers"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_JAX_IND",
+        "away": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "home": {
+          "abbreviation": "IND",
+          "name": "Indianapolis Colts"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_LAC_DEN",
+        "away": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "home": {
+          "abbreviation": "DEN",
+          "name": "Denver Broncos"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_LV_KC",
+        "away": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "home": {
+          "abbreviation": "KC",
+          "name": "Kansas City Chiefs"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_MIA_NE",
+        "away": {
+          "abbreviation": "MIA",
+          "name": "Miami Dolphins"
+        },
+        "home": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_NYJ_BUF",
+        "away": {
+          "abbreviation": "NYJ",
+          "name": "New York Jets"
+        },
+        "home": {
+          "abbreviation": "BUF",
+          "name": "Buffalo Bills"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_PHI_NYG",
+        "away": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
+        },
+        "home": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_PIT_BAL",
+        "away": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "home": {
+          "abbreviation": "BAL",
+          "name": "Baltimore Ravens"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_SEA_LA",
+        "away": {
+          "abbreviation": "SEA",
+          "name": "Seattle Seahawks"
+        },
+        "home": {
+          "abbreviation": "LA",
+          "name": "Los Angeles Rams"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_SF_ARI",
+        "away": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
+        },
+        "home": {
+          "abbreviation": "ARI",
+          "name": "Arizona Cardinals"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_TB_NO",
+        "away": {
+          "abbreviation": "TB",
+          "name": "Tampa Bay Buccaneers"
+        },
+        "home": {
+          "abbreviation": "NO",
+          "name": "New Orleans Saints"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      },
+      {
+        "gameId": "2026_18_TEN_HOU",
+        "away": {
+          "abbreviation": "TEN",
+          "name": "Tennessee Titans"
+        },
+        "home": {
+          "abbreviation": "HOU",
+          "name": "Houston Texans"
+        },
+        "gameday": "2027-01-10",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1799604000000
+      }
+    ]
+  }
+}
