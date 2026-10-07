@@ -1,0 +1,62 @@
+name: Update NFL schedule
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-nfl-schedule-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run schedule unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Download nflverse schedule
+        run: |
+          curl \
+            --fail \
+            --location \
+            --retry 3 \
+            --retry-all-errors \
+            --output "${RUNNER_TEMP}/nflverse-games.csv" \
+            "https://raw.githubusercontent.com/nflverse/nfldata/master/data/games.csv"
+
+      - name: Build and validate schedule JSON
+        run: |
+          python scripts/build_schedule.py \
+            --input "${RUNNER_TEMP}/nflverse-games.csv" \
+            --season 2026 \
+            --current data/nfl-schedule-2026.json \
+            --previous data/nfl-schedule-2026.previous.json
+
+      - name: Commit validated schedule change
+        run: |
+          git add data/
+
+          if git diff --cached --quiet; then
+            echo "The published schedule is already current."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update 2026 NFL schedule"
+          git push
