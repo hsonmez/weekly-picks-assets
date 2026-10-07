@@ -3,7 +3,14 @@ name: Update NFL schedule
 on:
   workflow_dispatch:
   schedule:
-    - cron: "17 */6 * * *"
+    # Every six hours from September through December.
+    - cron: "17 */6 * 9-12 *"
+
+    # Every six hours during January.
+    - cron: "17 */6 * 1 *"
+
+    # Every six hours from February 1 through February 15.
+    - cron: "17 */6 1-15 2 *"
 
 permissions:
   contents: write
@@ -13,13 +20,63 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  test-and-publish:
+  health-check-pages:
+    name: Verify published GitHub Pages schedule
     runs-on: ubuntu-latest
-    timeout-minutes: 10
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Download the published schedule
+        run: |
+          curl \
+            --fail \
+            --location \
+            --retry 3 \
+            --retry-all-errors \
+            --output "${RUNNER_TEMP}/published-nfl-schedule.json" \
+            "https://hsonmez.github.io/weekly-picks-assets/data/nfl-schedule-2026.json"
+
+      - name: Validate the published schedule
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          from scripts.build_schedule import validate_schedule
+
+          schedule_path = Path(os.environ["RUNNER_TEMP"]) / "published-nfl-schedule.json"
+          schedule = json.loads(schedule_path.read_text(encoding="utf-8"))
+
+          if schedule.get("season") != 2026:
+              raise ValueError(
+                  f"Published schedule season was {schedule.get('season')!r}, not 2026."
+              )
+
+          validate_schedule(schedule, strict=True)
+          game_count = sum(len(games) for games in schedule["weeks"].values())
+          print(
+              "Published GitHub Pages schedule is healthy: "
+              f"{len(schedule['weeks'])} weeks, {game_count} games."
+          )
+          PY
+
+  test-and-publish:
+    name: Test and publish nflverse schedule
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref_name }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -47,16 +104,66 @@ jobs:
             --current data/nfl-schedule-2026.json \
             --previous data/nfl-schedule-2026.previous.json
 
-      - name: Commit validated schedule change
+      - name: Refresh monthly active-season heartbeat
+        run: |
+          python - <<'PY'
+          import json
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          now = datetime.now(timezone.utc)
+          active_season = (
+              now.month in (9, 10, 11, 12, 1)
+              or (now.month == 2 and now.day <= 15)
+          )
+
+          if not active_season:
+              print("Outside the active-season heartbeat window; no heartbeat update.")
+              raise SystemExit(0)
+
+          heartbeat_path = Path("data/nfl-schedule-heartbeat.json")
+          calendar_month = now.strftime("%Y-%m")
+
+          if heartbeat_path.exists():
+              try:
+                  existing = json.loads(
+                      heartbeat_path.read_text(encoding="utf-8")
+                  )
+              except (OSError, json.JSONDecodeError):
+                  existing = {}
+
+              if existing.get("calendarMonth") == calendar_month:
+                  print(f"Heartbeat already recorded for {calendar_month}.")
+                  raise SystemExit(0)
+
+          heartbeat = {
+              "season": 2026,
+              "calendarMonth": calendar_month,
+              "lastSuccessfulCheck": now.replace(microsecond=0)
+                  .isoformat()
+                  .replace("+00:00", "Z"),
+              "source": "nflverse",
+          }
+
+          heartbeat_path.parent.mkdir(parents=True, exist_ok=True)
+          heartbeat_path.write_text(
+              json.dumps(heartbeat, indent=2) + "\n",
+              encoding="utf-8",
+          )
+
+          print(f"Recorded successful schedule heartbeat for {calendar_month}.")
+          PY
+
+      - name: Commit validated schedule or heartbeat change
         run: |
           git add data/
 
           if git diff --cached --quiet; then
-            echo "The published schedule is already current."
+            echo "The published schedule and monthly heartbeat are already current."
             exit 0
           fi
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Update 2026 NFL schedule"
-          git push
+          git commit -m "Update NFL schedule data"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
