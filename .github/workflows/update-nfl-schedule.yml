@@ -9,8 +9,8 @@ on:
     # Every six hours during January.
     - cron: "17 */6 * 1 *"
 
-    # Every six hours from February 1 through February 15.
-    - cron: "17 */6 1-15 2 *"
+    # Every six hours from February 1 through February 28.
+    - cron: "17 */6 1-28 2 *"
 
 permissions:
   contents: write
@@ -52,19 +52,35 @@ jobs:
 
           from scripts.build_schedule import validate_schedule
 
-          schedule_path = Path(os.environ["RUNNER_TEMP"]) / "published-nfl-schedule.json"
-          schedule = json.loads(schedule_path.read_text(encoding="utf-8"))
+          schedule_path = (
+              Path(os.environ["RUNNER_TEMP"])
+              / "published-nfl-schedule.json"
+          )
+
+          schedule = json.loads(
+              schedule_path.read_text(encoding="utf-8")
+          )
 
           if schedule.get("season") != 2026:
               raise ValueError(
-                  f"Published schedule season was {schedule.get('season')!r}, not 2026."
+                  f"Published schedule season was "
+                  f"{schedule.get('season')!r}, not 2026."
               )
 
-          validate_schedule(schedule, strict=True)
-          game_count = sum(len(games) for games in schedule["weeks"].values())
+          validate_schedule(
+              schedule,
+              strict=True,
+          )
+
+          game_count = sum(
+              len(games)
+              for games in schedule["weeks"].values()
+          )
+
           print(
               "Published GitHub Pages schedule is healthy: "
-              f"{len(schedule['weeks'])} weeks, {game_count} games."
+              f"{len(schedule['weeks'])} weeks, "
+              f"{game_count} games."
           )
           PY
 
@@ -112,46 +128,81 @@ jobs:
           from pathlib import Path
 
           now = datetime.now(timezone.utc)
+
           active_season = (
               now.month in (9, 10, 11, 12, 1)
-              or (now.month == 2 and now.day <= 15)
+              or (
+                  now.month == 2
+                  and now.day <= 28
+              )
           )
 
           if not active_season:
-              print("Outside the active-season heartbeat window; no heartbeat update.")
+              print(
+                  "Outside the active-season heartbeat "
+                  "window; no heartbeat update."
+              )
               raise SystemExit(0)
 
-          heartbeat_path = Path("data/nfl-schedule-heartbeat.json")
+          heartbeat_path = Path(
+              "data/nfl-schedule-heartbeat.json"
+          )
+
           calendar_month = now.strftime("%Y-%m")
 
           if heartbeat_path.exists():
               try:
                   existing = json.loads(
-                      heartbeat_path.read_text(encoding="utf-8")
+                      heartbeat_path.read_text(
+                          encoding="utf-8"
+                      )
                   )
-              except (OSError, json.JSONDecodeError):
+              except (
+                  OSError,
+                  json.JSONDecodeError,
+              ):
                   existing = {}
 
-              if existing.get("calendarMonth") == calendar_month:
-                  print(f"Heartbeat already recorded for {calendar_month}.")
+              if (
+                  existing.get("calendarMonth")
+                  == calendar_month
+              ):
+                  print(
+                      "Heartbeat already recorded for "
+                      f"{calendar_month}."
+                  )
                   raise SystemExit(0)
 
           heartbeat = {
               "season": 2026,
               "calendarMonth": calendar_month,
-              "lastSuccessfulCheck": now.replace(microsecond=0)
+              "lastSuccessfulCheck": (
+                  now
+                  .replace(microsecond=0)
                   .isoformat()
-                  .replace("+00:00", "Z"),
+                  .replace("+00:00", "Z")
+              ),
               "source": "nflverse",
           }
 
-          heartbeat_path.parent.mkdir(parents=True, exist_ok=True)
+          heartbeat_path.parent.mkdir(
+              parents=True,
+              exist_ok=True,
+          )
+
           heartbeat_path.write_text(
-              json.dumps(heartbeat, indent=2) + "\n",
+              json.dumps(
+                  heartbeat,
+                  indent=2,
+              )
+              + "\n",
               encoding="utf-8",
           )
 
-          print(f"Recorded successful schedule heartbeat for {calendar_month}.")
+          print(
+              "Recorded successful schedule heartbeat "
+              f"for {calendar_month}."
+          )
           PY
 
       - name: Commit validated schedule or heartbeat change
