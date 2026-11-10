@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "season": 2026,
   "source": "nflverse",
-  "generatedAt": "2026-10-07T14:20:46Z",
+  "generatedAt": "2026-11-10T19:43:15Z",
   "weeks": {
     "1": [
       {
@@ -1987,21 +1987,6 @@
         "kickoffTimestamp": 1794171900000
       },
       {
-        "gameId": "2026_09_LV_SF",
-        "away": {
-          "abbreviation": "LV",
-          "name": "Las Vegas Raiders"
-        },
-        "home": {
-          "abbreviation": "SF",
-          "name": "San Francisco 49ers"
-        },
-        "gameday": "2026-11-08",
-        "gametime": "16:05",
-        "weekday": "Sunday",
-        "kickoffTimestamp": 1794171900000
-      },
-      {
         "gameId": "2026_09_ARI_SEA",
         "away": {
           "abbreviation": "ARI",
@@ -2025,6 +2010,21 @@
         "home": {
           "abbreviation": "NE",
           "name": "New England Patriots"
+        },
+        "gameday": "2026-11-08",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1794173100000
+      },
+      {
+        "gameId": "2026_09_LV_SF",
+        "away": {
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
+        },
+        "home": {
+          "abbreviation": "SF",
+          "name": "San Francisco 49ers"
         },
         "gameday": "2026-11-08",
         "gametime": "16:25",
