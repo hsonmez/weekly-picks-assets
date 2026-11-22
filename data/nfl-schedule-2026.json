@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "season": 2026,
   "source": "nflverse",
-  "generatedAt": "2026-11-17T20:54:51Z",
+  "generatedAt": "2026-11-22T19:39:04Z",
   "weeks": {
     "1": [
       {
@@ -2321,21 +2321,6 @@
         "kickoffTimestamp": 1795370400000
       },
       {
-        "gameId": "2026_11_JAX_NYG",
-        "away": {
-          "abbreviation": "JAX",
-          "name": "Jacksonville Jaguars"
-        },
-        "home": {
-          "abbreviation": "NYG",
-          "name": "New York Giants"
-        },
-        "gameday": "2026-11-22",
-        "gametime": "13:00",
-        "weekday": "Sunday",
-        "kickoffTimestamp": 1795370400000
-      },
-      {
         "gameId": "2026_11_MIA_BUF",
         "away": {
           "abbreviation": "MIA",
@@ -2359,6 +2344,21 @@
         "home": {
           "abbreviation": "CHI",
           "name": "Chicago Bears"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795370400000
+      },
+      {
+        "gameId": "2026_11_PIT_PHI",
+        "away": {
+          "abbreviation": "PIT",
+          "name": "Pittsburgh Steelers"
+        },
+        "home": {
+          "abbreviation": "PHI",
+          "name": "Philadelphia Eagles"
         },
         "gameday": "2026-11-22",
         "gametime": "13:00",
@@ -2411,6 +2411,21 @@
         "kickoffTimestamp": 1795381500000
       },
       {
+        "gameId": "2026_11_JAX_NYG",
+        "away": {
+          "abbreviation": "JAX",
+          "name": "Jacksonville Jaguars"
+        },
+        "home": {
+          "abbreviation": "NYG",
+          "name": "New York Giants"
+        },
+        "gameday": "2026-11-22",
+        "gametime": "16:25",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795382700000
+      },
+      {
         "gameId": "2026_11_LV_DEN",
         "away": {
           "abbreviation": "LV",
@@ -2419,21 +2434,6 @@
         "home": {
           "abbreviation": "DEN",
           "name": "Denver Broncos"
-        },
-        "gameday": "2026-11-22",
-        "gametime": "16:25",
-        "weekday": "Sunday",
-        "kickoffTimestamp": 1795382700000
-      },
-      {
-        "gameId": "2026_11_PIT_PHI",
-        "away": {
-          "abbreviation": "PIT",
-          "name": "Pittsburgh Steelers"
-        },
-        "home": {
-          "abbreviation": "PHI",
-          "name": "Philadelphia Eagles"
         },
         "gameday": "2026-11-22",
         "gametime": "16:25",

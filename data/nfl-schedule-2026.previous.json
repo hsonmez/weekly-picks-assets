@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "season": 2026,
   "source": "nflverse",
-  "generatedAt": "2026-11-10T19:43:15Z",
+  "generatedAt": "2026-11-17T20:54:51Z",
   "weeks": {
     "1": [
       {
@@ -2578,21 +2578,6 @@
         "kickoffTimestamp": 1795975200000
       },
       {
-        "gameId": "2026_12_LV_CLE",
-        "away": {
-          "abbreviation": "LV",
-          "name": "Las Vegas Raiders"
-        },
-        "home": {
-          "abbreviation": "CLE",
-          "name": "Cleveland Browns"
-        },
-        "gameday": "2026-11-29",
-        "gametime": "13:00",
-        "weekday": "Sunday",
-        "kickoffTimestamp": 1795975200000
-      },
-      {
         "gameId": "2026_12_NO_CIN",
         "away": {
           "abbreviation": "NO",
@@ -2648,6 +2633,21 @@
           "name": "Jacksonville Jaguars"
         },
         "gameday": "2026-11-29",
+        "gametime": "13:00",
+        "weekday": "Sunday",
+        "kickoffTimestamp": 1795975200000
+      },
+      {
+        "gameId": "2026_12_NE_LAC",
+        "away": {
+          "abbreviation": "NE",
+          "name": "New England Patriots"
+        },
+        "home": {
+          "abbreviation": "LAC",
+          "name": "Los Angeles Chargers"
+        },
+        "gameday": "2026-11-29",
         "gametime": "16:05",
         "weekday": "Sunday",
         "kickoffTimestamp": 1795986300000
@@ -2683,14 +2683,14 @@
         "kickoffTimestamp": 1795987500000
       },
       {
-        "gameId": "2026_12_NE_LAC",
+        "gameId": "2026_12_LV_CLE",
         "away": {
-          "abbreviation": "NE",
-          "name": "New England Patriots"
+          "abbreviation": "LV",
+          "name": "Las Vegas Raiders"
         },
         "home": {
-          "abbreviation": "LAC",
-          "name": "Los Angeles Chargers"
+          "abbreviation": "CLE",
+          "name": "Cleveland Browns"
         },
         "gameday": "2026-11-29",
         "gametime": "20:20",
